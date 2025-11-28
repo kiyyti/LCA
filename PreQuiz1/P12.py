@@ -10,4 +10,3 @@ def add_mat(f1, f2, outf):
     
     re_matrix = matrix1 + matrix2
     np.savetxt(outf, re_matrix, fmt='%d', delimiter=' ')
-add_mat("mat1.txt","mat2.txt","outmat.txt")

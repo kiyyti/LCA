@@ -7,4 +7,4 @@ elif a < 0 and b == 0:
 elif a > 0 and b == 0:
     print("a/b = infinity")
 else :
-    print(f"a/b = {a/b:.1f}")
+    print("a/b = {:.1f}".format(a/b))

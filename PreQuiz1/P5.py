@@ -7,7 +7,7 @@ def power_equiv(pwat) :
     return hr, btuh, calmin, perg, flbm
 
 def main():
-    pwatt = 100
+    pwatt = float(input())
     horsep, btuh, calmin, perg, footlbm = power_equiv(pwatt)
     print(pwatt, 'w =', round(horsep,3), 'hp =',
     round(btuh,3), 'btu/h =',

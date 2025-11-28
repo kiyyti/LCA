@@ -1,4 +1,5 @@
-watt = float(input("Enter power in watt:"))
-hours = float(input("Enter operating hours:"))
+if __name__ == "__main__":
+    watt = float(input("Enter power in watt:"))
+    hours = float(input("Enter operating hours:"))
 
-print(f"Energy = {watt*hours:,.2f} Wh or {3600 * (watt * hours):,.2f} J")
+    print("Energy = {:,.2f} Wh or {:,.2f} J".format(watt*hours, 3600 * (watt * hours)))

@@ -1,4 +1,3 @@
 voltage = float(input("Enter voltage (V): "))
 current = float(input("Enter current (A): "))
-
-print(f"The power is {voltage * current} W")
+print("The power is {} W".format(voltage*current))
